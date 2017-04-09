@@ -2,14 +2,14 @@
 This repo holds the documentation which is published on https://vexera.pw
 
 ## How this works?
-Every documentations are written in [markdown](https://guides.github.com/features/mastering-markdown/) formated files.
+All of the documentation is written in [markdown](https://guides.github.com/features/mastering-markdown/) formated files.
 These files are then parsed by our magic website code before serving them over the world. *We don't use GitHub Pages!*
 
 ## Can I contribute?
-Sure, everybody is welcome to help to make this doc the best ever since the world exist!
-Every contributions are important, from those who fix grammar and spelling errors to those who write whole pages.
+Sure, everybody is welcome to help to make this doc the best ever since the world existance!
+Every contribution is important, from those who fix grammar and spelling errors to those who write whole pages.
 
-You can know how to contribute by reading the [CONTRIBUTING.md](.github/CONTRIBUTING.md) file 😉
+You can learn how to contribute by reading the [CONTRIBUTING.md](.github/CONTRIBUTING.md) file 😉
 
 ## License
 All the documents contained in this repository are licensed under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
