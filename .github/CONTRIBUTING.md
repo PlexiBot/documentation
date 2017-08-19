@@ -16,7 +16,7 @@ Don't hesitate to submit one because it's a *small* change!
 		 2. Make your changes
 		 3. Under "Commit changes", add a short summary of your changes in the first textbox (mandatory)
 		 4. If needed, you can add more informations in the second textbox
-		 5. Click "Propose file change". This will forks the repository for you and create a branch where your changes will be committed
+		 5. Click "Propose file change". This will fork the repository for you and create a branch where your changes will be committed
 		 6. Submit the pull request
 		 7. Reply to the comments and reviews of the pull request if needed
  
