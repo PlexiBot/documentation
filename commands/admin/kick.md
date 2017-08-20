@@ -7,8 +7,8 @@ This command allow you to kick a member from your server.
 ```
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
-member    | Yes      | member (@mention)  | The member to ban. It should be in your server.
-reason    | No       | text               | The reason that will be logged with the ban and in the Discord's Audit Log. If you have a log channel set (see [`+log`](/commands/settings/log.md)), the reason may be also logged in this channel.
+member    | Yes      | member (@mention)  | The member to kick. It should be in your server.
+reason    | No       | text               | The reason that will be logged in the Discord's Audit Log. If you have a log channel set (see [`+log`](/commands/settings/log.md)), the reason may be also logged in this channel.
 
 ### Example
 ```
