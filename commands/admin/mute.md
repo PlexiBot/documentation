@@ -32,3 +32,4 @@ This role is created the first time you mute a user. A permission override in ev
 The role should be updated automatically when you create a new channel.
 
 If the role happens to be broken on your server, you can force Vexera to regenerate it by deleting (or renaming) it and applying a new mute.
+Please note that after regenerating the role, you should remute all previously muted users.
