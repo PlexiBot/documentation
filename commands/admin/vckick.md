@@ -14,7 +14,7 @@ reason    | No       | text               | The reason that will be logged in th
 ```
 +vckick @Yeller#0420 YELL IN THE VOICE CHAT
 ```
-This command will kick the user `Yeller#0420` with the reason `YELL IN THE VOICE CHAT`.
+This command will kick the user `Yeller#0420` *from the voice channel* with the reason `YELL IN THE VOICE CHAT`.
 
 ## Permission
 This command require the `admin.vckick` permission node.
