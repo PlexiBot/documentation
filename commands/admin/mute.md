@@ -29,5 +29,5 @@ See the [permissions page](/permissions.md) for more informations.
 
 ## A note about the `VexeraMuted` role
 This role is created the first time you mute a user. A permission override in every channels of your server is then created to remove the `Send Messages` permission.
-This role isn't resynced when you do changes on your server. As a result, we recommrnd you to create a new channel by cloning an existing one to copy the `VexeraMuted`'s permissions.
-If the role is broken on your server, you can force Vexera to regenerate it by deleting (or renaming) the role and applying a new mute.
+The role should be updated automatically when you create a new channel.
+If the role happens to be broken on your server, you can force Vexera to regenerate it by deleting (or renaming) the role and applying a new mute.
