@@ -3,7 +3,7 @@ This command allows you to disable/enable commands in the particular channel.
 
 ## Syntax
 ```
-++channeltoggle
++channeltoggle
 ```
 
 ### Notes
