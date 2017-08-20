@@ -7,7 +7,7 @@ Sets a role that people have to have to use the bot.
 ```
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
-role      | Yes      | role (name or role id) | The prefix you want to set. If set to `disable`, the prefix will go back to the default value of `+`
+role      | Yes      | role (name or role id) | The role name or role id of the role you want to give access to.
 
 ### Example
 ```
