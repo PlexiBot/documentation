@@ -3,7 +3,7 @@ This command allow you to change the prefix in which Vexera responds with.
 
 ## Syntax
 ```
-+kick <member> [reason]
++prefix <prefix>
 ```
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
