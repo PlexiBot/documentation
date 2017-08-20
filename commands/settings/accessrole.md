@@ -3,7 +3,7 @@ Sets a role that people have to have to use the bot.
 
 ## Syntax
 ```
-++accessrole <role>
++accessrole <role>
 ```
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
@@ -11,7 +11,7 @@ role      | Yes      | role (name or role id) | The role name or role id of the 
 
 ### Example
 ```
-++accessrole Trusted
++accessrole Trusted
 ```
 This command will set the access role to Trusted, only allowing people with the Trusted role to use the bot.
 
