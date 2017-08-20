@@ -3,7 +3,7 @@ This command sets a message for when a user leaves the server.
 
 ## Syntax
 ```
-++farewell <channel> [text]
++farewell <channel> [text]
 ```
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
@@ -12,7 +12,7 @@ text      | No       | string             | The text that you want to appear. Yo
 
 ### Example
 ```
-++farewell #general %username% left %server%... bye bye %username%...
++farewell #general %username% left %server%... bye bye %username%...
 ```
 This command will send `luke left <your server>... bye bye luke..` to `#general` when luke leaves your server.
 
