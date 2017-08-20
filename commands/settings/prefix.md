@@ -3,7 +3,7 @@ This command allow you to change the prefix in which Vexera responds with.
 
 ## Syntax
 ```
-++kick <member> [reason]
++kick <member> [reason]
 ```
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
@@ -11,12 +11,12 @@ prefix    | Yes      | string             | The prefix you want to set. If set t
 
 ### Examples
 ```
-++prefix =
++prefix =
 ```
 This command will set the prefix to `=`
 
 ```
-++prefix disable
++prefix disable
 ```
 This command will disable the custom prefix and set the prefix to the default value of `+`
 
