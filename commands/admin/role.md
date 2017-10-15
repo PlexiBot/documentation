@@ -1,4 +1,4 @@
-# `role` command
+# `+role` command
 This command allows you to add or remove roles from a member or a group of members of your server.
 By adding the rolename into the `member` field, the group of members assigned to the role will be aimed at.
 
