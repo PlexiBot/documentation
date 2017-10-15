@@ -1,5 +1,5 @@
 # `+clean` command
-This command allow you to clean messages from a channel.
+This command allows you to clean messages from a channel.
 
 ## Syntax
 ```
@@ -7,7 +7,7 @@ This command allow you to clean messages from a channel.
 ```
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
-amount    | No       | number             | The amount of messages to remove. If not set, default to `10`.
+amount    | No       | number             | The amount of messages to remove. If not set, default is `10`.
 user      | No       | username (text)    | Removes only messages from this user. If not set, removes messages from all users.
 
 ### Examples
@@ -23,7 +23,7 @@ This command will remove the last `100` messages in the current channel.
 This command will remove the last `100` messages posted by `luke` in the current channel.
 
 ## Permission
-This command require the `admin.clean` permission node.
+This command requires the `admin.clean` permission node.
 ```
 +perms add Administrators admin.clean
 ```
