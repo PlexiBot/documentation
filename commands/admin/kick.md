@@ -1,5 +1,5 @@
 # `+kick` command
-This command allow you to kick a member from your server.
+This command allows you to kick a member from your server.
 
 ## Syntax
 ```
@@ -8,7 +8,7 @@ This command allow you to kick a member from your server.
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
 member    | Yes      | member (@mention)  | The member to kick. It should be in your server.
-reason    | No       | text               | The reason that will be logged in the Discord's Audit Log. If you have a log channel set (see [`+log`](/commands/settings/log.md)), the reason may be also logged in this channel.
+reason    | No       | text               | The reason that will be logged in the Discord's Audit Log.
 
 ### Example
 ```
@@ -17,7 +17,7 @@ reason    | No       | text               | The reason that will be logged in th
 This command will kick the user `RoleBreaker#0420` with the reason `Breaking the rules.`
 
 ## Permission
-This command require the `admin.kick` permission node.
+This command requires the `admin.kick` permission node.
 ```
 +perms add Moderators admin.kick
 ```
