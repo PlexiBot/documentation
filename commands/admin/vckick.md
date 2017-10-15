@@ -1,5 +1,6 @@
 # `+vckick` command
-This command allow you to kick a member from a voice channel.
+This command allows you to kick a member from a voice channel. That works by creating a voice channel called `voicekick`, 
+moving the member to it and deleting it just after.
 
 ## Syntax
 ```
@@ -7,8 +8,8 @@ This command allow you to kick a member from a voice channel.
 ```
 Parameter | Required | Type               | Description
 ----------|----------|--------------------|--------------------------------------------------
-member    | Yes      | member (@mention)  | The member to kick. It should be connected in a voice channel.
-reason    | No       | text               | The reason that will be logged in the Discord's Audit Log. If you have a log channel set (see [`+log`](/commands/settings/log.md)), the reason may be also logged in this channel.
+member    | Yes      | member (@mention)  | The member to kick. It should be connected to a voice channel.
+reason    | No       | text               | The reason that will be logged in the Discord's Audit Log.
 
 ### Example
 ```
@@ -17,7 +18,7 @@ reason    | No       | text               | The reason that will be logged in th
 This command will kick the user `Yeller#0420` *from the voice channel* with the reason `YELL IN THE VOICE CHAT`.
 
 ## Permission
-This command require the `admin.vckick` permission node.
+This command requires the `admin.vckick` permission node.
 ```
 +perms add Moderators admin.vckick
 ```
